@@ -1,6 +1,6 @@
 {
   "name": "@staffbase/halacious",
-  "version": "6.2.2",
+  "version": "6.2.3-beta-0",
   "description": "A HAL processor for Hapi",
   "keywords": [
     "HAL",
