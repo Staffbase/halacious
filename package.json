@@ -1,5 +1,5 @@
 {
-  "name": "@modernpoacher/halacious",
+  "name": "@staffbase/halacious",
   "version": "6.2.2",
   "description": "A HAL processor for Hapi",
   "keywords": [
@@ -12,7 +12,7 @@
   "types": "./types/index.d.ts",
   "author": "Brad Leupen",
   "contributors": [
-    "Jonathan Perry <modernpoacher@modernpoacher.com> (Modern Poacher Limited)"
+    "Daniel Grosse <daniel.grosse@staffbase.com> (Staffbase)"
   ],
   "license": "MIT",
   "engines": {
@@ -20,11 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/modernpoacher/halacious"
+    "repository": "git://github.com/staffbase/halacious"
   },
-  "homepage": "https://github.com/modernpoacher/halacious",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/staffbase/halacious",
   "bugs": {
-    "url": "https://github.com/modernpoacher/halacious/issues"
+    "url": "https://github.com/staffbase/halacious/issues"
   },
   "scripts": {
     "lint": "eslint .",
