@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "repository": "git://github.com/staffbase/halacious"
+    "url": "git://github.com/staffbase/halacious"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
